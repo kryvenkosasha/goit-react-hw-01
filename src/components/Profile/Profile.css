@@ -1,0 +1,38 @@
+.profile-container {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #111;
+}
+
+.profile-avatar-image {
+  max-width: 200px;
+  border-radius: 50%;
+  background-color: rgb(38, 38, 38);
+}
+
+.profile-name {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+.profile-tag {
+  text-align: center;
+  color: #a9a9a9;
+  font-weight: 600;
+}
+.profile-location {
+  text-align: center;
+  color: #a9a9a9;
+  font-weight: 600;
+}
+
+.profile-stats-list {
+  display: flex;
+}
+
+.profile-stats-item {
+  background-color: #a9a9a9;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #111;
+}
