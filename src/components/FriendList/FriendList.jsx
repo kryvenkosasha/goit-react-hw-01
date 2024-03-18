@@ -1,9 +1,10 @@
 import React from "react";
 import FriendListItem from "../FriendListItem/FriendListItem.jsx";
+import "./FriendList.css";
 
 const FriendList = ({ friends }) => {
   return (
-    <ul>
+    <ul className="friends-list-container">
       {friends.map((friend) => (
         <li key={friend.id}>
           <FriendListItem
@@ -18,5 +19,3 @@ const FriendList = ({ friends }) => {
 };
 
 export default FriendList;
-
-

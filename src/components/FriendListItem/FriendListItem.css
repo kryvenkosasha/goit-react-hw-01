@@ -1,0 +1,17 @@
+.friend-container{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.friend-name{
+    font-weight: 600;
+}
+
+.online{
+    color: green;
+}
+
+.offline{
+    color: red;
+}
